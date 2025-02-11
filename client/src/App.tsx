@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 
 import { AuthProvider } from "./contexts/AuthContext"
 import RoleBasedRoute from "./components/RoleBasedRoute"
-import Layout from "./components/Layout"
 import Login from "./pages/Login"
 import ParentDashboard from "./pages/ParentDashboard"
 import HousemasterDashboard from "./pages/HousemasterDashboard"
